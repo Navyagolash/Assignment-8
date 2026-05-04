@@ -64,6 +64,21 @@ VITE_API_URL=http://localhost:5000/api
 
 The React app runs at `http://localhost:5173`.
 
+If the browser shows a blank page on Windows with a Vite `spawn EPERM` error, run the production preview instead:
+
+```bash
+npm run build
+npm run preview:local
+```
+
+You can also run the built app without Vite:
+
+```bash
+npm run serve:dist
+```
+
+That fallback opens on `http://localhost:5174`.
+
 ## API Endpoints
 
 | Method | Endpoint | Description |

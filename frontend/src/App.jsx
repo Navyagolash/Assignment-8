@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Check, Loader2, Pencil, Plus, Save, Search, Trash2, X } from 'lucide-react';
 import { taskApi } from './services/api.js';
 
